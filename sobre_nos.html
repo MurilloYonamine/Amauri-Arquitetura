@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+
+    <link rel="icon" href="imagens/logo_amauri.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        @font-face {
+            font-family: roboto;
+            src: url(fontes/Roboto/Roboto-Regular.ttf) format("truetype");
+        }
+
+        @font-face {
+            font-family: roboto-thin;
+            src: url(fontes/Roboto/Roboto-Thin.ttf) format("truetype");
+        }
+
+        * {
+            font-family: roboto;
+        }
+
+        .my-nav {
+            position: absolute;
+            z-index: 10;
+            width: 100%;
+        }
+
+        .offcanvas,
+        .offcanvas-lg,
+        .offcanvas-md,
+        .offcanvas-sm,
+        .offcanvas-xl,
+        .offcanvas-xxl {
+            --bs-offcanvas-width: 200px !important;
+        }
+
+        * {
+            font-family: roboto !important;
+        }
+
+        .square {
+            width: 100%;
+            height: 80vh;
+        }
+
+        .row {
+            margin: 0 !important;
+        }
+
+        @media only screen and (max-width: 540px) {
+            #logo-banner {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-nav" aria-label="Offcanvas navbar large">
+                <div class="container">
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                        aria-labelledby="offcanvasNavbar2Label">
+                        <div class="offcanvas-header">
+                            <strong>
+                                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Amauri Arquitetura</h5>
+                            </strong>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Início</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Sobre nós</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html?#servicos">Serviços</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html?#projetos">Projetos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html?#contato">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="row">
+            <div class="square bg-dark">
+                <img src="imagens/logo_amauri.png" alt="logo Amauri Arquitetura"
+                    class="mx-auto d-block img-fluid py-5 mt-5" id="logo-banner">
+            </div>
+        </section>
+
+
+        <div class="container">
+            <section class="row py-5">
+                <article class="col-xl-6 col-md-6 col-12">
+                    <h2 class="h2 py-5 mt-5">
+                        Sobre Amauri<br>Arquitetura
+                    </h2>
+                    <p class="lead text-start me-5">AMAURI ARQUITETURA é capacitada a construção de sonhos há mais de 20
+                        anos.
+                        <br><br>
+                        Atuantes no mercado de projetos e construção civil, expomos soluções arquitetônicas para
+                        empreendimentos residenciais e comerciais, seja ele seu futuro lar ou investimento.
+                    </p>
+                </article>
+                <figure class="col-xl-6 col-md-6 col-12">
+                    <img src="imagens/predio_amauri.jpg" alt="Predio do Amauri Arquiteturas" class="img-fluid">
+                </figure>
+            </section>
+        </div>
+        <div class="container">
+            <section class="row">
+                <figure class="col-xl-6 col-md-6 col-12 py-5">
+                    <img src="imagens/logo_amauri.png" alt="" class="img-fluid">
+                </figure>
+                <article class="col-xl-6 col-md-6 col-12 py-5 mt-5">
+                    <p class="lead text-start">
+                        Nossa visibilidade aconteceu na procura por profissionais de qualidade e habilitados para
+                        projetar e construir qualquer tipologia de edificação e aprovação na prefeitura. <br><br>
+                        Ansiamos desde o início transformar e empreender no principal setor do país, no qual, este
+                        proposito corporificou a Amauri Arquitetura e solidificou seu nome tornando-se um dos principais
+                        escritórios de Arquitetura da Zona Norte de São Paulo. <br><br>
+                        Hoje são mais de 500 projetos executados, quase 1 milhão de metros quadrados construídos, e a
+                        satisfação de atender a todos com interesse, ética, profissionalismo e comprometimento.
+                    </p>
+                </article>
+            </section>
+        </div>
+        <div class="container text-center p-5">
+            <section class="row pt-5">
+                <div class="col-xl-4 col-md-4 col-12">
+                    <div class="bg-light py-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="currentColor"
+                            style="color: #c2e108;" class="bi bi-map" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" />
+                        </svg>
+                        <h3 class="h3"><br> Missão</h3>
+                        <p class="" style="font-family: roboto-thin;">Projetar e ambientar espaços <br> com
+                            qualidade e
+                            conforto.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-12">
+                    <div class="bg-light py-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="currentColor"
+                            style="color: #c2e108;" class="bi bi-eye" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                            <path
+                                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                        <h3 class="h3"><br> Visão</h3>
+                        <p class="" style="font-family: roboto-thin;">Buscar inovação e técnicas construtivas <br>
+                            sustentáveis que contribua com o meio
+                            ambiente.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-12">
+                    <div class="bg-light py-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="currentColor"
+                            style="color: #c2e108;" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                        </svg>
+                        <h3 class="h3"><br> Valores</h3>
+                        <p style="font-family: roboto-thin;">Respeito, qualidade <br> e comprometimento.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- rodapé -->
+        <div class="container-fluid bg-light">
+            <div class="container">
+                <footer class="row">
+
+                    <div class="container">
+                        <footer
+                            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                            <div class="col-md-4 col-4">
+                                <h6>Desenvolvido por:</h6>
+                                <p class=" mb-0 text-muted">Murillo, André e Lucas</p>
+                            </div>
+
+                            <a href="#">
+                                <img src="imagens/logo_amauri_superpequeno.png" alt="Logo Amauri Arquitetura">
+                            </a>
+
+                            <ul class="nav col-md-4 col-4 justify-content-end">
+                                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Início</a>
+                                </li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre
+                                        nós</a></li>
+                                <li class="nav-item"><a href="index.html?#servicos" class="nav-link px-2 text-muted">Serviços</a>
+                                </li>
+                                <li class="nav-item"><a href="index.html?#projetos" class="nav-link px-2 text-muted">Projetos</a>
+                                </li>
+                                <li class="nav-item"><a href="index.html?#contato" class="nav-link px-2 text-muted">Contato</a>
+                                </li>
+                            </ul>
+                        </footer>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
