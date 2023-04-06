@@ -359,6 +359,45 @@
       }
     }
 
+    
+    @media only screen and (min-width: 1000px) {
+
+      .carrossel-estilo {
+        width: 120% !important;
+      }
+
+      #textos-banner {
+        top: 18% !important;
+        left: 20% !important;
+      }
+
+      #titulo {
+        font-size: 5rem !important;
+      }
+
+      #sub-titulo {
+        font-size: 2rem !important;
+      }
+
+      #botao-titulo {
+        font-size: 1.5rem !important;
+      }
+
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+
+      #voltarIcone {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
     @media only screen and (min-width: 1920px) {
 
       .carrossel-estilo {
@@ -396,6 +435,8 @@
         width: 40px;
       }
     }
+
+  
   </style>
 </head>
 
@@ -739,12 +780,12 @@
       <section class="row">
         <!-- galeria -->
 
-        <div class="col-xl-3 col-md-6 col-12 bg-light residencial1" style="height: 90vh">
+        <div class="col-xl-3 col-md-6 col-12 bg-light residencial1" style="height: 800px; ">
           <div class="h-25"></div>
           <h3 class="texto text-center">
             Projetos <strong>Residenciais</strong>
           </h3>
-          <p class="texto lead mb-4" style="font-size: 0.9rem">
+          <p class="texto lead mb-4 text-center" style="font-size: 0.9rem">
             <br />Realizamos sonhos. Idealizamos o lar ideal para a sua
             família, nos pequenos detalhes, de acordo com sua necessidade.
             Projetamos residências para uso próprio ou para comercializar,
@@ -756,7 +797,7 @@
             Saiba mais
           </button>
 
-          <div class="pt-5 text-center" id="residenciaIcone">
+          <div class="pt-5 text-center mx-auto d-block" id="residenciaIcone">
             <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" fill="currentColor"
               class="bi bi-house text-center" viewBox="0 0 16 16">
               <path
@@ -765,10 +806,10 @@
           </div>
         </div>
 
-        <div class="retangulo col-xl-3 col-md-6 col-12 bg-light comercial1" style="height: 90vh">
+        <div class="col-xl-3 col-md-6 col-12 bg-light comercial1" style="height: 800px; ">
           <div class="h-25"></div>
           <h3 class="text-center">Projetos <strong>Comerciais</strong></h3>
-          <p class="lead mb-4" style="font-size: 0.9rem">
+          <p class="lead mb-4 text-center" style="font-size: 0.9rem">
             <br />Solução completa para sua empresa. Projetamos espaços
             sustentáveis, confortáveis e eficientes para seu negocio,
             planejando fluxos e disposições que facilitem o funcionamento
@@ -788,10 +829,10 @@
           </div>
         </div>
 
-        <div class="retangulo col-xl-3 col-md-6 col-12 bg-light emGeral1" style="height: 90vh">
+        <div class="col-xl-3 col-md-6 col-12 bg-light emGeral1" style="height: 800px; ">
           <div class="h-25"></div>
           <h3 class="text-center"><strong>Reformas</strong> em Geral</h3>
-          <p class="lead mb-4" style="font-size: 0.9rem">
+          <p class="lead mb-4 text-center" style="font-size: 0.9rem">
             <br />Reformas de todos os tipos, residencial ou comercial, com o
             devido planejamento, adequando os espaços com muito design e
             inovação. Executamos a reforma do seu apartamento desde o
@@ -811,12 +852,12 @@
           </div>
         </div>
 
-        <div class="retangulo col-xl-3 col-md-6 col-12 bg-light edificacao1" style="height: 90vh">
+        <div class="col-xl-3 col-md-6 col-12 bg-light edificacao1" style="height: 800px; ">
           <div class="h-25"></div>
           <h3 class="text-center">
             Construção de <strong>Edificação</strong>
           </h3>
-          <p class="lead mb-4" style="font-size: 0.9rem">
+          <p class="lead mb-4 text-center" style="font-size: 0.9rem">
             <br />Executamos sua construção e administramos sua obra com a
             mais alta qualidade profissional e responsabilidade financeira,
             cumprindo prazos e estimativas, entregando qualidade para o seu
@@ -1325,15 +1366,22 @@
           <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
               <div class="col-md-4 col-4">
-                <h6>Desenvolvido por:</h6>
-                <p class=" mb-0 text-muted"><a href="https://www.linkedin.com/in/murillo-gomes-yonamine" target="_blank" style="text-decoration: none; color: #6f716e;">Murillo,</a> André e Lucas</p>
+
+                <h6 class="text-muted">Desenvolvido por:</h6>
+                <ul class="nav col-xl-7 col-md-4 col-4 justify-content-start">
+                  <li class="nav-item"><a href="https://www.linkedin.com/in/murillo-gomes-yonamine" target="_blank"
+                      class="nav-link text-muted">Murillo</a></li>
+                  <li class="nav-item"><a href="" class="nav-link  text-muted">André</a></li>
+                  <li class="nav-item"><a href="" class="nav-link  text-muted">Lucas</a></li>
+                </ul>
+
               </div>
 
               <a href="#">
                 <img src="imagens/logo_amauri_superpequeno.png" alt="Logo Amauri Arquitetura">
               </a>
 
-              <ul class="nav col-md-4 col-4 justify-content-end">
+              <ul class="nav col-xl-4 col-md-4 col-4 justify-content-end">
                 <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Início</a></li>
                 <li class="nav-item"><a href="sobre_nos.html" class="nav-link px-2 text-muted">Sobre nós</a></li>
                 <li class="nav-item"><a href="#servicos" class="nav-link px-2 text-muted">Serviços</a></li>
