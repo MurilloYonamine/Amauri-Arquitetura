@@ -31,4 +31,4 @@ O website foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Autor
 
-O website da Amauri Arquitetura foi desenvolvido por Murillo, Lucas e André..
+O website da Amauri Arquitetura foi desenvolvido por Murillo, Lucas e André.
