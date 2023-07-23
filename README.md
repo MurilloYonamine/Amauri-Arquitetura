@@ -4,7 +4,7 @@ Este é o repositório do website da Amauri Arquitetura. O website é uma plataf
 
 ## Visão Geral
 
-O website da Amauri Arquitetura é um site estático desenvolvido com base nas tecnologias HTML, CSS, PHP e Javascript. Ele apresenta uma interface intuitiva e agradável para os visitantes, permitindo que eles naveguem pelas diferentes seções do site e obtenham informações sobre a empresa, serviços e portfólio de projetos.
+O website da Amauri Arquitetura é um site estático desenvolvido com base nas tecnologias HTML, PHP e CSS, além do Bootstrap. Ele apresenta uma interface intuitiva e agradável para os visitantes, permitindo que eles naveguem pelas diferentes seções do site e obtenham informações sobre a empresa, serviços e portfólio de projetos.
 
 ## Conteúdo
 
