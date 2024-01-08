@@ -1,34 +1,34 @@
 # Amauri Architecture
 
-This is the repository for the Amauri Architecture website. The website serves as an online platform to showcase and highlight the services offered by the company, as well as display projects and relevant information about the team.
+Este é o repositório para o website da Amauri Architecture. O website serve como uma plataforma online para apresentar e destacar os serviços oferecidos pela empresa, bem como exibir projetos e informações relevantes sobre a equipe.
 
-## Overview
+## Visão Geral
 
-The Amauri Architecture website is a static site developed using HTML, PHP, and CSS technologies, along with Bootstrap. It features an intuitive and pleasing interface for visitors, allowing them to navigate through different sections of the site and obtain information about the company, services, and project portfolio.
+O website da Amauri Architecture é um site estático desenvolvido com base nas tecnologias HTML, PHP e CSS, além do Bootstrap. Ele apresenta uma interface intuitiva e agradável para os visitantes, permitindo que eles naveguem pelas diferentes seções do site e obtenham informações sobre a empresa, serviços e portfólio de projetos.
 
-## Content
+## Conteúdo
 
-The website consists of various sections, including:
+O website é composto por diferentes seções, incluindo:
 
-- **Home Page**: Provides an overview of the company, contact information, and an introduction to the services offered.
-- **About Us**: Offers detailed information about the company, its mission, vision, and values, as well as a brief description of the team and its members.
-- **Services**: Highlights the services offered by Amauri Architecture, with detailed descriptions and representative images.
-- **Projects**: Displays a gallery of projects completed by the company, with photos, descriptions, and relevant details.
-- **Contact**: Provides contact information, including address, phone number, and a form for visitors to send messages or request quotes.
+- **Página inicial**: Apresenta uma visão geral da empresa, informações de contato e uma introdução aos serviços oferecidos.
+- **Sobre nós**: Fornece informações detalhadas sobre a empresa, sua missão, visão e valores, bem como uma breve descrição da equipe e seus membros.
+- **Serviços**: Destaca os serviços oferecidos pela Amauri Architecture, com descrições detalhadas e imagens representativas.
+- **Projetos**: Exibe uma galeria de projetos concluídos pela empresa, com fotos, descrições e detalhes relevantes.
+- **Contato**: Fornece informações de contato, incluindo endereço, número de telefone e um formulário para que os visitantes possam enviar mensagens ou solicitar orçamentos.
 
-## Style and Design
+## Estilo e Design
 
-The Amauri Architecture website features an elegant and modern design, with a color palette inspired by the company's logo and images that showcase the quality of projects and services offered by the company. The responsive layout ensures a pleasant viewing experience on mobile devices, tablets, and desktops.
+O website da Amauri Architecture possui um design elegante e moderno, com uma paleta de cores inspirada na logo da empresa e imagens que destacam a qualidade dos projetos e serviços oferecidos pela empresa. O layout responsivo garante uma experiência de visualização agradável em dispositivos móveis, tablets e desktops.
 
-## Technologies Used
+## Tecnologias Utilizadas
 
-The website was developed using the following technologies:
+O website foi desenvolvido utilizando as seguintes tecnologias:
 
-- **HTML5**: To structure the site's content.
-- **CSS3**: To style and bring the site's design to life.
-- **PHP**: To send an email that allows visitors to contact the company directly.
-- **Bootstrap**: CSS framework used to streamline development and provide responsive components and styles.
+- **HTML5**: Para estruturar o conteúdo do site.
+- **CSS3**: Para estilizar e dar vida ao design do site.
+- **PHP**: Para enviar um email que permite que os visitantes entrem em contato diretamente com a empresa.
+- **Bootstrap**: Framework CSS utilizado para agilizar o desenvolvimento e fornecer componentes e estilos responsivos.
 
-## Author
+## Autor
 
-The Amauri Architecture website was developed by Murillo, Lucas, and André.
+O website da Amauri Architecture foi desenvolvido por Murillo, Lucas e André.
