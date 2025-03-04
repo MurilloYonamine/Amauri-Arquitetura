@@ -1,4 +1,4 @@
-# Amauri Architecture  
+# Amauri Arquitetura  
 
 This is the repository for the Amauri Architecture website. The website serves as an online platform to showcase and highlight the services offered by the company, as well as display projects and relevant information about the team.  
 
